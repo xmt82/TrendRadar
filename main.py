@@ -3624,7 +3624,7 @@ def send_to_dingtalk(
             # 将批次标识插入到适当位置（在标题之后）
             if "📊 **热点词汇统计**" in batch_content:
                 batch_content = batch_content.replace(
-                    "📊 **热点词汇统计**\n\n", f"📊 **热点词汇统计** {batch_header}\n\n"
+                    "📊 **gogo热点词汇统计**\n\n", f"📊 **热点词汇统计** {batch_header}\n\n"
                 )
             else:
                 # 如果没有统计标题，直接在开头添加
